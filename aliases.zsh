@@ -1,2 +1,4 @@
-# alias glo='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all -5'
+alias mwin="sudo mount /dev/nvme0n1p3 /media/mauro"
+alias cddrop="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)"
+alias cddocs="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)/PERSONAL/DOCUMENTACION"
 
