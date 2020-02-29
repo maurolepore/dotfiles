@@ -1,3 +1,2 @@
-alias glol="git log --oneline --graph --decorate --all"
-alias glo="git log --oneline --graph --decorate --all -5"
+# alias glo='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all -5'
 
