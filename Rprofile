@@ -46,14 +46,6 @@ options(
   usethis.protocol  = "ssh"
 )
 
-# ## https://happygitwithr.com/ssh-keys.html#ssh-keys
-# .cred <- git2r::cred_ssh_key(
-#   # publickey =  "~/../.ssh/id_rsa.pub",
-#   publickey =  fs::path(fs::path_home(), ".ssh", "id_rsa.pub"),
-#   # privatekey = "~/../.ssh/id_rsa"
-#   privatekey =  fs::path(fs::path_home(), ".ssh", "id_rsa")
-# )
-# usethis::use_git_credentials(.cred)
 
 knitr::opts_chunk$set(
   echo = TRUE,
