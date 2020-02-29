@@ -1,8 +1,7 @@
-ln -sv ~/git/.dotfiles/.Rprofile ~ 
-ln -sv ~/git/.dotfiles/.Renviron ~
-ln -sv ~/git/.dotfiles/.bashrc ~
-ln -sv ~/git/.dotfiles/.gitconfig ~
-ln -sv ~/git/.dotfiles/.profile ~
-ln -sv ~/git/.dotfiles/.zshrc ~
-ln -sv ~/git/.dotfiles/.aliases.zsh ~/.oh-my-zsh/custom
+ln -sv ~/git/dotfiles/Rprofile ~/.Rprofile -f
+ln -sv ~/git/dotfiles/bashrc ~/.bashrc -f
+ln -sv ~/git/dotfiles/gitconfig ~/.gitconfig -f
+ln -sv ~/git/dotfiles/profile ~/.profile -f
+ln -sv ~/git/dotfiles/zshrc ~/.zshrc -f
+ln -sv ~/git/dotfiles/aliases.zsh ~/.oh-my-zsh/custom/.aliases.zsh -f
 
