@@ -70,7 +70,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(vi-mode
 	git 
-        globalias
        	zsh-syntax-highlighting
 	history-substring-search
 	zsh-autosuggestions
