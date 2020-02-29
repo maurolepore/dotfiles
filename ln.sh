@@ -6,6 +6,3 @@ ln -sv ~/git/.dotfiles/.profile ~
 ln -sv ~/git/.dotfiles/.zshrc ~
 ln -sv ~/git/.dotfiles/.aliases.zsh ~/.oh-my-zsh/custom
 
-# ln -sv ~/git/.dotfiles/.Renviron ~
-# ln -sv ~/git/.dotfiles/.Renviron ~
-# ln -sv ~/git/.dotfiles/.Renviron ~
