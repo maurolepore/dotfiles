@@ -44,6 +44,5 @@
     "jobs_tab_visibility": "shown",
     "default_project_location": "~/git",
     "show_hidden_files": true,
-    "auto_save_on_idle": "commit",
     "auto_save_on_blur": true
 }
