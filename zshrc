@@ -75,7 +75,8 @@ plugins=(vi-mode
 	zsh-autosuggestions
 	per-directory-history
 	autojump
-	command-not-found)
+	command-not-found
+	tmux)
 
 
 source $ZSH/oh-my-zsh.sh
