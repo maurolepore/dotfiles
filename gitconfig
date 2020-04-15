@@ -49,3 +49,5 @@
 [help]
 	format = man
 [usethis]
+[pull]
+	ff = only
