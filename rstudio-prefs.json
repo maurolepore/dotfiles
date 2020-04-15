@@ -44,5 +44,6 @@
     "default_project_location": "~/git",
     "show_hidden_files": true,
     "auto_save_on_blur": true,
-    "source_with_echo": true
+    "source_with_echo": true,
+    "editor_keybindings": "vim"
 }
