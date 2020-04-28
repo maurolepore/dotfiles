@@ -2,7 +2,10 @@
 
 .First <- function() {
   options(
-    repos = c(CRAN = "https://cran.rstudio.com/"),
+    repos = c(
+      CRAN_rstudio = "https://cran.rstudio.com/",
+      CRAN_revolutionanalytics = "https://cran.revolutionanalytics.com/"
+    ),
     browserNLdisabled = TRUE,
     deparse.max.lines = 2
   )
