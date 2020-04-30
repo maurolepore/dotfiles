@@ -76,7 +76,8 @@ plugins=(vi-mode
 	per-directory-history
 	autojump
 	command-not-found
-	tmux)
+	tmux
+	pass)
 
 
 source $ZSH/oh-my-zsh.sh
