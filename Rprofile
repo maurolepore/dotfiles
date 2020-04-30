@@ -1,3 +1,6 @@
+# FIXME https://github.com/2DegreesInvesting/resources/issues/145
+options(bitmapType="cairo")
+
 # Hadly's -----------------------------------------------------------------
 
 .First <- function() {
