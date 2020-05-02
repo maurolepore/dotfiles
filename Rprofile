@@ -6,8 +6,9 @@ options(bitmapType="cairo")
 .First <- function() {
   options(
     repos = c(
-      CRAN_rstudio = "https://cran.rstudio.com/",
-      CRAN_revolutionanalytics = "https://cran.revolutionanalytics.com/"
+      CRAN = "https://cran.rstudio.com/",
+      r = "https://cran.r-project.org/",
+      ra = "https://cran.revolutionanalytics.com/"
     ),
     browserNLdisabled = TRUE,
     deparse.max.lines = 2
