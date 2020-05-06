@@ -2,8 +2,8 @@
     "panes": {
         "quadrants": [
             "Source",
-            "TabSet1",
             "Console",
+            "TabSet1",
             "TabSet2"
         ],
         "tabSet1": [
