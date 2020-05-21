@@ -21,3 +21,6 @@ alias ghrc="gh repo create"
 alias ghrf="gh repo fork"
 alias ghrv="gh repo view"
 
+alias pr_sync="Rscript -e 'usethis::pr_sync()'"
+
+alias pr_view="gh pr view -w"
