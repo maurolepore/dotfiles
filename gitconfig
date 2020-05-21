@@ -6,7 +6,7 @@
 [push]
 	default = current
 [core]
-	editor = nano
+	editor = vim
 	autocrlf = input
 [alias]
 	a = add .
