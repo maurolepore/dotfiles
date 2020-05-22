@@ -43,8 +43,6 @@
     "jobs_tab_visibility": "shown",
     "default_project_location": "~/git",
     "auto_save_on_blur": true,
-    "source_with_echo": true,
     "editor_keybindings": "vim",
-    "new_proj_git_init": true,
     "spelling_dictionary_language": "en_AU"
 }
