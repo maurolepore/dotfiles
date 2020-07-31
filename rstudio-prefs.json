@@ -44,5 +44,15 @@
     "default_project_location": "~/git",
     "auto_save_on_blur": true,
     "editor_keybindings": "vim",
-    "spelling_dictionary_language": "en_AU"
+    "spelling_dictionary_language": "en_AU",
+    "cran_mirror": {
+        "name": "Custom",
+        "host": "Custom",
+        "url": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
+        "secondary": "rstudio|https://cran.rstudio.com/|rproject|https://cran.r-project.org/",
+        "country": "",
+        "changed": false
+    },
+    "source_with_echo": true,
+    "show_hidden_files": true
 }

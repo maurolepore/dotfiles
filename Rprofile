@@ -1,13 +1,17 @@
-# FIXME https://github.com/2DegreesInvesting/resources/issues/145
-options(bitmapType="cairo")
-
 # Hadly's -----------------------------------------------------------------
 
 .First <- function() {
   options(
     repos = c(
-      CRAN = "https://cran.rstudio.com/",
-      r = "https://cran.r-project.org/",
+      # Latest bineries 
+      # https://packagemanager.rstudio.com/client/#/repos/1/overview
+      CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
+      
+      # This sets the repository to a specific date:
+      # mr = "https://mran.microsoft.com/snapshot/2020-06-29",
+      
+      rs = "https://cran.rstudio.com/",
+      rc = "https://cran.r-project.org/",
       ra = "https://cran.revolutionanalytics.com/"
     ),
     browserNLdisabled = TRUE,
