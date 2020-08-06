@@ -57,6 +57,10 @@ options(
   usethis.protocol  = "ssh"
 )
 
+# suitable for your .Rprofile
+if (requireNamespace("credentials", quietly = TRUE)) {
+  credentials::set_github_pat(verbose = FALSE)
+}
 
 knitr::opts_chunk$set(
   echo = TRUE,
