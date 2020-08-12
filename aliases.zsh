@@ -21,6 +21,7 @@ alias ghrc="gh repo create"
 alias ghrf="gh repo fork"
 alias ghrv="gh repo view"
 
+alias Rscript="/usr/bin/Rscript"
 alias rfinish="Rscript -e 'usethis::pr_finish()'"
 alias rmerge_main="Rscript -e 'usethis::pr_merge_main()'"
 alias rpause="Rscript -e 'usethis::pr_pause()'"
