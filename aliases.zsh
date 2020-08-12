@@ -21,8 +21,14 @@ alias ghrc="gh repo create"
 alias ghrf="gh repo fork"
 alias ghrv="gh repo view"
 
+alias pr_finish="Rscript -e 'usethis::pr_finish()'"
+alias pr_merge_main="Rscript -e 'usethis::pr_merge_main()'"
+alias pr_pause="Rscript -e 'usethis::pr_pause()'"
+alias pr_pull="Rscript -e 'usethis::pr_pull()'"
+alias pr_push="Rscript -e 'usethis::pr_push()'"
+alias pr_resume="Rscript -e 'usethis::pr_resume()'"
 alias pr_sync="Rscript -e 'usethis::pr_sync()'"
-
+# The usethis version doesn't pop up a web browser
 alias pr_view="gh pr view -w"
 
 alias R="/usr/bin/R"
