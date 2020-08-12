@@ -38,7 +38,7 @@ alias rdocument="Rscript -e 'devtools::document()'"
 
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
 alias rstyle="Rscript -e 'usethis::use_tidy_style()'"
-alias rdesc="Rscript -e 'usethis::use_tidy_style()'"
+alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
 
 alias R="/usr/bin/R"
 
