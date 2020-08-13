@@ -27,3 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export RSTUDIO_WHICH_R="/usr/bin/R"
+export PATH="${PATH}:/usr/bin"
