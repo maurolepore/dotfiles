@@ -29,6 +29,7 @@ alias rpull="Rscript -e 'usethis::pr_pull()'"
 alias rpush="Rscript -e 'usethis::pr_push()'"
 alias rresume="Rscript -e 'usethis::pr_resume()'"
 alias rsync="Rscript -e 'usethis::pr_sync()'"
+alias rpull_upstream="Rscript -e 'usethis::pr_pull_upstream()'"
 # The usethis version doesn't pop up a web browser
 alias rview="gh pr view -w"
 

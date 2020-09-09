@@ -2,8 +2,8 @@
     "panes": {
         "quadrants": [
             "Source",
-            "TabSet1",
             "Console",
+            "TabSet1",
             "TabSet2"
         ],
         "tabSet1": [
@@ -54,5 +54,6 @@
         "changed": false
     },
     "source_with_echo": true,
+    "reindent_on_paste": false,
     "show_hidden_files": true
 }

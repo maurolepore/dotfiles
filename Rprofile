@@ -24,6 +24,7 @@ if (interactive()) {
   suppressMessages(require(testthat))
   suppressMessages(require(spelling))
   suppressMessages(require(pkgdown))
+  suppressMessages(require(reprex))
   suppressMessages(require(pak))
 }
 
@@ -62,10 +63,9 @@ if (requireNamespace("credentials", quietly = TRUE)) {
   credentials::set_github_pat(verbose = FALSE)
 }
 
-knitr::opts_chunk$set(
-  echo = TRUE,
-  comment = "#>",
-  error = TRUE,
-  collapse = TRUE
-)
-
+# knitr::opts_chunk$set(
+#   echo = TRUE,
+#   comment = "#>",
+#   error = TRUE,
+#   collapse = TRUE
+# )
