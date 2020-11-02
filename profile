@@ -28,3 +28,5 @@ fi
 
 export RSTUDIO_WHICH_R="/usr/bin/R"
 export PATH="${PATH}:/usr/bin"
+PS1='docker:\w$ '
+umask 000

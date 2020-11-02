@@ -58,14 +58,12 @@ options(
   usethis.protocol  = "ssh"
 )
 
-# suitable for your .Rprofile
-if (requireNamespace("credentials", quietly = TRUE)) {
-  credentials::set_github_pat(verbose = FALSE)
-}
-
-# knitr::opts_chunk$set(
-#   echo = TRUE,
-#   comment = "#>",
-#   error = TRUE,
-#   collapse = TRUE
-# )
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
+options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
+options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
