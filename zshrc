@@ -110,4 +110,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion for gh on zsh
 eval "$(gh completion -s zsh)"
-export PATH=/home/mauro/bin/pacta-cli:${PATH}
+export PATH=/home/mauro/git/pacta-cli:${PATH}
+export PATH=/home/mauro/git/2diidockerrunner/pacta:${PATH}
