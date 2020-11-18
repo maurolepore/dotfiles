@@ -1,0 +1,62 @@
+snippet [
+	[${1:label}](${2:location})
+
+snippet ![
+	![${1:label}](${2:location})
+
+snippet r
+	```{r ${1:label}, ${2:options}}
+	${0}
+	```
+
+snippet rcpp
+	```{r, engine='Rcpp'}
+	#include <Rcpp.h>
+	using namespace Rcpp;
+	
+	${0}
+	
+	```
+
+snippet post
+	---
+	title: "${1:Title}"
+	description: |
+		"${2:Description}"
+	author:
+		- name: Mauro Lepore
+			url: https://github.com/maurolepore
+	date: "`r Sys.Date()`"
+	output: 
+		distill::distill_article:
+		toc: true
+		toc_depth: 3
+		self_contained: true
+	categories:
+		- other
+		- community
+	preview: preview.jpg
+	twitter:
+		site: "@mauro_lepore"
+		creator: "@mauro_lepore"
+	---
+	
+	```{r setup, include=FALSE}
+	knitr::opts_chunk\$set(
+		echo = TRUE,
+		collapse = TRUE,
+		comment = "#>"
+	)
+	```
+
+snippet categories
+	- learn
+	- r2dii
+	- ds-incubator
+	- coding-helpdesk
+	- other
+	- programming
+	- package
+
+
+
