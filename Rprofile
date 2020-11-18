@@ -11,8 +11,7 @@
       # mr = "https://mran.microsoft.com/snapshot/2020-06-29",
       
       rs = "https://cran.rstudio.com/",
-      rc = "https://cran.r-project.org/",
-      ra = "https://cran.revolutionanalytics.com/"
+      rc = "https://cran.r-project.org/"
     ),
     browserNLdisabled = TRUE,
     deparse.max.lines = 2
@@ -58,12 +57,5 @@ options(
   usethis.protocol  = "ssh"
 )
 
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
-options(repos = c(CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"))
-options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))
+# This script is used to run the application defined in app.R in the background
+options(shiny.autoreload = TRUE)
