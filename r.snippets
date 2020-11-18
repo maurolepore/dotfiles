@@ -117,12 +117,24 @@ snippet cor
 	cor.test(${1:x}, ${2:y})
 snippet fte
 	var.test(${1:x}, ${2:y})
-snippet kvt 
+snippet kvt
 	kv.test(${1:x}, ${2:y})
-	
+
 # Mauro
 snippet tth
 	test_that("${1:}", {
 		${2:}
 	})
 
+snippet shinyapp
+	library(shiny)
+
+	ui <- fluidPage(
+
+	)
+
+	server <- function(input, output, session) {
+
+	}
+
+	shinyApp(ui, server)
