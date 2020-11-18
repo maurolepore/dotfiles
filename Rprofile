@@ -57,5 +57,10 @@ options(
   usethis.protocol  = "ssh"
 )
 
-# This script is used to run the application defined in app.R in the background
-options(shiny.autoreload = TRUE)
+edit_snippets_r <- function() {
+  file.edit("~/.config/rstudio/snippets/r.snippets")
+}
+
+edit_snippets_markdown <- function() {
+  file.edit("~/.config/rstudio/snippets/markdown.snippets")
+}
