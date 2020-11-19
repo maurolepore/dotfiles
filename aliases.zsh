@@ -35,6 +35,7 @@ alias rview="gh pr view -w"
 
 alias rcheck="Rscript -e 'devtools::check()'"
 alias rtest="Rscript -e 'devtools::test()'"
+alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
 
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
