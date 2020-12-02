@@ -28,7 +28,7 @@ alias rpause="Rscript -e 'usethis::pr_pause()'"
 alias rpull="Rscript -e 'usethis::pr_pull()'"
 alias rpush="Rscript -e 'usethis::pr_push()'"
 alias rresume="Rscript -e 'usethis::pr_resume()'"
-alias rsync="Rscript -e 'usethis::pr_sync()'"
+alias rsync="Rscript -e 'usethis::pr_pull()' && usethis::pr_merge_main() && pr_push()"
 alias rmerge_origin_master="git fetch origin && git merge origin/master"
 # The usethis version doesn't pop up a web browser
 alias rview="gh pr view -w"
