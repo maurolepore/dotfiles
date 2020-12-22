@@ -41,6 +41,9 @@ alias rdocument="Rscript -e 'devtools::document()'"
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
 alias rstyle="Rscript -e 'usethis::use_tidy_style()'"
 alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
+alias rbuildme="Rscript -e 'devtools::build_readme()'"
+alias rknitme="Rscript -e 'knitr::knit('\''README.Rmd'\'')'"
+
 
 alias R="/usr/bin/R --no-save"
 
