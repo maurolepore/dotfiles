@@ -7,4 +7,5 @@ ln -sv ~/git/dotfiles/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh -f
 ln -sv ~/git/dotfiles/rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json -f
 ln -sv ~/git/dotfiles/r.snippets  ~/.config/rstudio/snippets/r.snippets -f
 ln -sv ~/git/dotfiles/markdown.snippets  ~/.config/rstudio/snippets/markdown.snippets -f
+ln -sv ~/git/dotfiles/addins.json  ~/.config/rstudio/keybindings/addins.json -f
 
