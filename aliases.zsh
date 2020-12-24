@@ -44,6 +44,8 @@ alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
 alias rbuildme="Rscript -e 'devtools::build_readme()'"
 alias rknitme="Rscript -e 'knitr::knit('\''README.Rmd'\'')'"
 
+alias l="ls -1"
+
 
 alias R="/usr/bin/R --no-save"
 
