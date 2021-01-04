@@ -53,7 +53,6 @@
         "changed": false
     },
     "reindent_on_paste": false,
-    "show_hidden_files": true,
     "rmd_preferred_template_path": "/home/mauro/R/x86_64-pc-linux-gnu-library/4.0/learnr/rmarkdown/templates/tutorial",
     "strip_trailing_whitespace": true,
     "initial_working_directory": "~",
