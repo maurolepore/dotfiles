@@ -1,4 +1,4 @@
 {
-    "devtools::test_file": "Ctrl+T"
+    "devtools::test_file": "Ctrl+T",
+    "devtools::document": "Alt+Shift+D"
 }
-

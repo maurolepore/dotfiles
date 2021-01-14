@@ -58,5 +58,6 @@
     "initial_working_directory": "~",
     "graphics_backend": "ragg",
     "show_panel_focus_rectangle": true,
-    "source_with_echo": true
+    "source_with_echo": true,
+    "show_hidden_files": true
 }
