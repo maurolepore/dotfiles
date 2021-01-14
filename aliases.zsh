@@ -43,7 +43,8 @@ alias rstyle="Rscript -e 'usethis::use_tidy_style()'"
 alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
 alias rbuildme="Rscript -e 'devtools::build_readme()'"
 alias rknitme="Rscript -e 'knitr::knit('\''README.Rmd'\'')'"
-alias rapp="Rscript -e 'shiny::runApp()'"
+alias rapp="Rscript -e 'browseURL(shiny::runApp())'"
+
 
 alias l="ls -1"
 
