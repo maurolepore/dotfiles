@@ -57,10 +57,10 @@ options(
   usethis.protocol  = "ssh"
 )
 
-edit_snippets_r <- function() {
-  file.edit("~/.config/rstudio/snippets/r.snippets")
-}
+# edit_snippets_r <- function() {
+#   file.edit("~/.config/rstudio/snippets/r.snippets")
+# }
 
-edit_snippets_markdown <- function() {
-  file.edit("~/.config/rstudio/snippets/markdown.snippets")
-}
+# edit_snippets_markdown <- function() {
+#   file.edit("~/.config/rstudio/snippets/markdown.snippets")
+# }
