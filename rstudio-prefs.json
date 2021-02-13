@@ -60,5 +60,6 @@
     "show_panel_focus_rectangle": true,
     "source_with_echo": true,
     "new_proj_git_init": true,
-    "visual_markdown_editing_is_default": true
+    "visual_markdown_editing_is_default": true,
+    "git_diff_ignore_whitespace": true
 }

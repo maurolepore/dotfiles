@@ -24,7 +24,6 @@ if (interactive()) {
   suppressMessages(require(spelling))
   suppressMessages(require(pkgdown))
   suppressMessages(require(reprex))
-  suppressMessages(require(pak))
 }
 
 options(
