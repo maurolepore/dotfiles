@@ -4,8 +4,6 @@ alias cddrop="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)"
 alias gbv="git branch -vv"
 alias mwin="sudo mount /dev/nvme0n1p3 /media/mauro"
 alias R3="/usr/bin/R"
-alias Rscript="/opt/R/4.0.0/bin/Rscript"
-alias R="/opt/R/4.0.0/bin/R --no-save"
 # alias R="/usr/bin/R --no-save"
 
 alias ghic="gh issue create"
