@@ -76,7 +76,6 @@ plugins=(vi-mode
 	per-directory-history
 	autojump
 	command-not-found
-	tmux
 	pass)
 
 
@@ -112,3 +111,10 @@ source $ZSH/oh-my-zsh.sh
 eval "$(gh completion -s zsh)"
 export PATH=/home/mauro/git/pacta-cli:${PATH}
 export PATH=/home/mauro/git/2diidockerrunner/pacta:${PATH}
+source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[[ -s /home/mauro/.autojump/etc/profile.d/autojump.sh ]] && source /home/mauro/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
+
+source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
