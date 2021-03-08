@@ -5,7 +5,7 @@
     repos = c(
       # Latest bineries 
       # https://packagemanager.rstudio.com/client/#/repos/1/overview
-      CRAN = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
+      CRAN = "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
       
       # This sets the repository to a specific date:
       # mr = "https://mran.microsoft.com/snapshot/2020-06-29",
