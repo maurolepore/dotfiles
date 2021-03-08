@@ -48,6 +48,11 @@ alias rbuildme="Rscript -e 'devtools::build_readme()'"
 alias rknitme="Rscript -e 'knitr::knit('\''README.Rmd'\'')'"
 alias rapp="Rscript -e 'shiny::runApp()'"
 
+alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
+alias dcp="docker-compose ps"
+alias dcd="docker-compose down"
+
 alias l="ls -1"
 
 
