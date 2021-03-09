@@ -53,6 +53,7 @@ alias dcud="docker-compose up -d"
 alias dcp="docker-compose ps"
 alias dcd="docker-compose down"
 
+alias bat="batcat"
 alias l="ls -1"
 
 
