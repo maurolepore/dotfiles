@@ -41,6 +41,16 @@ alias rtest="Rscript -e 'devtools::test()'"
 alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
 
+# Release issue
+alias rbuildme="Rscript -e 'devtools::build_readme()'"
+alias rurlcheck="Rscript -e 'urlchecker::url_check()'"
+alias rurlupdate="Rscript -e 'urlchecker::url_update()'"
+alias rcheckremote="Rscript -e 'devtools::check(remote = TRUE, manual = TRUE)'"
+alias rcheckwindevel="Rscript -e 'devtools::check_win_devel()'"
+alias rcheckrhub="Rscript -e 'rhub::check_for_cran(env_vars=c(R_COMPILE_AND_INSTALL_PACKAGES = \"always\"))'"
+alias rrevdepcheck="Rscript -e 'revdepcheck::revdep_check(num_workers = 4)'"
+alias rrevdepreport="Rscript -e 'revdepcheck::revdep_report_cran()'"
+
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
 alias rstyle="Rscript -e 'usethis::use_tidy_style()'"
 alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
