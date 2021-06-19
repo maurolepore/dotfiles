@@ -118,3 +118,4 @@ autoload -U compinit && compinit -u
 source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=/home/mauro/git/bin:${PATH}

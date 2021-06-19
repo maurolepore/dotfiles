@@ -1,5 +1,8 @@
 {
     "devtools::test_file": "Ctrl+T",
     "devtools::document": "Alt+Shift+D",
-    "breakerofchains::break_chain": "Ctrl+Alt+C Ctrl+Alt+B"
+    "breakerofchains::break_chain": "Ctrl+Alt+C Ctrl+Alt+B",
+    "devtools::test_coverage_file": "Ctrl+R",
+    "devtools::test_coverage": "Ctrl+Shift+R",
+    "devtools::test_active_file": "Ctrl+T"
 }

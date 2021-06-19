@@ -38,9 +38,10 @@ alias rview="gh pr view -w"
 
 alias rcheck="Rscript -e 'devtools::check()'"
 alias rtest="Rscript -e 'devtools::test()'"
+alias rsnap"Rscript -e 'testthat::snapshot_accept()'"
 alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
-
+alias rexamples="Rscript -e 'devtools::run_examples(run_dontrun = TRUE, run_donttest = TRUE, document = TRUE)'"
 # Release issue
 alias rbuildme="Rscript -e 'devtools::build_readme()'"
 alias rurlcheck="Rscript -e 'urlchecker::url_check()'"
@@ -51,6 +52,7 @@ alias rcheckrhub="Rscript -e 'rhub::check_for_cran(env_vars=c(R_COMPILE_AND_INST
 alias rrevdepcheck="Rscript -e 'revdepcheck::revdep_check(num_workers = 4)'"
 alias rrevdepreport="Rscript -e 'revdepcheck::revdep_report_cran()'"
 
+alias rupdatewl="Rscript -e 'spelling::update_wordlist(confirm = FALSE)'"
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
 alias rstyle="Rscript -e 'usethis::use_tidy_style()'"
 alias rdesc="Rscript -e 'usethis::use_tidy_description()'"
