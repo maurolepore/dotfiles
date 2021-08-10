@@ -38,7 +38,7 @@ alias rview="gh pr view -w"
 
 alias rcheck="Rscript -e 'devtools::check()'"
 alias rtest="Rscript -e 'devtools::test()'"
-alias rsnap"Rscript -e 'testthat::snapshot_accept()'"
+alias rsnap="Rscript -e 'testthat::snapshot_accept()'"
 alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
 alias rexamples="Rscript -e 'devtools::run_examples(run_dontrun = TRUE, run_donttest = TRUE, document = TRUE)'"
