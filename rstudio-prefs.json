@@ -61,5 +61,7 @@
     "new_proj_git_init": true,
     "visual_markdown_editing_is_default": true,
     "git_diff_ignore_whitespace": true,
-    "source_with_echo": true
+    "shiny_viewer_type": "pane",
+    "source_with_echo": true,
+    "rainbow_parentheses": true
 }
