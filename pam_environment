@@ -1,4 +1,4 @@
 # https://askubuntu.com/questions/4667/where-to-declare-environment-variables
 MAURO_GIT=/home/mauro/git
-MAURO_BIN="$MAURO_GIT"/bin
-MAURO_ALIASES="$MAURO_GIT"/dotfiles/aliases.zsh
+MAURO_BIN=/home/mauro/git/bin
+MAURO_ALIASES=/home/mauro/git/dotfiles/aliases.zsh
