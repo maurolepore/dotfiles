@@ -10,4 +10,4 @@ ln -sv ~/git/dotfiles/markdown.snippets  ~/.config/rstudio/snippets/markdown.sni
 ln -sv ~/git/dotfiles/addins.json  ~/.config/rstudio/keybindings/addins.json -f
 ln -sv ~/git/dotfiles/editor_bindings.json  ~/.config/rstudio/keybindings/editor_bindings.json -f
 ln -sv ~/git/dotfiles/rstudio_bindings.json  ~/.config/rstudio/keybindings/rstudio_bindings.json -f
-
+ln -sv ~/git/dotfiles/pam_environment ~/.config/rstudio/keybindings/.pam_environment -f
