@@ -51,6 +51,7 @@ alias rcheckwindevel="Rscript -e 'devtools::check_win_devel()'"
 alias rcheckrhub="Rscript -e 'rhub::check_for_cran(env_vars=c(R_COMPILE_AND_INSTALL_PACKAGES = \"always\"))'"
 alias rrevdepcheck="Rscript -e 'revdepcheck::revdep_check(num_workers = 4)'"
 alias rrevdepreport="Rscript -e 'revdepcheck::revdep_report_cran()'"
+alias rrevdepreset="Rscript -e 'revdepcheck::revdep_reset()'"
 
 alias rupdatewl="Rscript -e 'spelling::update_wordlist(confirm = FALSE)'"
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
