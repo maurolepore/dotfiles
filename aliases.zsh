@@ -69,4 +69,4 @@ alias dcd="docker-compose down"
 alias bat="batcat"
 alias l="ls -1"
 
-
+alias rm=del
