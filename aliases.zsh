@@ -59,6 +59,8 @@ alias rupdatecrancomments="vim cran-comments.md"
 alias ruseversionpatch="Rscript -e 'usethis::use_version(\"patch\")'"
 alias ruseversionminor="Rscript -e 'usethis::use_version(\"minor\")'"
 alias ruseversionmayor="Rscript -e 'usethis::use_version(\"major\")'"
+alias rusegithubrelease="Rscript -e 'usethis::use_github_release()'"
+alias rusedevversion="Rscript -e 'usethis::use_dev_version()'"
 
 alias rupdatewl="Rscript -e 'spelling::update_wordlist(confirm = FALSE)'"
 alias rspell="Rscript -e 'spelling::spell_check_package()'"
