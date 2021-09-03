@@ -44,7 +44,7 @@ alias rdocument="Rscript -e 'devtools::document()'"
 alias rexamples="Rscript -e 'devtools::run_examples(run_dontrun = TRUE, run_donttest = TRUE, document = TRUE)'"
 # CRAN release
 alias rreleaseworkflow="google-chrome https://github.com/2DegreesInvesting/resources/issues/256"
-alias rcheckresults='f() {google-chrome https://cran.rstudio.org/web/checks/check_results_${1}.html}; f'
+alias rcheckresults='f() {google-chrome https://cran.rstudio.org/web/checks/check_results_$(basename $(pwd)).html}; f'
 alias rpolishnews="vim NEWS.md"
 alias rbuildme="Rscript -e 'devtools::build_readme()'"
 alias rurlcheck="Rscript -e 'urlchecker::url_check()'"
