@@ -73,9 +73,11 @@ alias rapp="Rscript -e 'shiny::runApp()'"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dcp="docker-compose ps"
+alias dcpa="docker-compose ps -a"
 alias dcd="docker-compose down"
 
 alias bat="batcat"
 alias l="ls -1"
 
 alias rm=del
+
