@@ -22,8 +22,10 @@
             "Help",
             "Viewer"
         ],
+        "hiddenTabSet": [],
         "console_left_on_top": false,
-        "console_right_on_top": true
+        "console_right_on_top": true,
+        "additional_source_columns": 0
     },
     "wrap_tab_navigation": false,
     "save_workspace": "never",
@@ -53,14 +55,15 @@
         "changed": false
     },
     "reindent_on_paste": false,
-    "rmd_preferred_template_path": "/home/mauro/R/x86_64-pc-linux-gnu-library/4.0/learnr/rmarkdown/templates/tutorial",
+    "rmd_preferred_template_path": "/home/mauro/R/x86_64-pc-linux-gnu-library/4.1/openintro/rmarkdown/templates/lab1",
     "strip_trailing_whitespace": true,
     "initial_working_directory": "~",
     "graphics_backend": "ragg",
     "show_panel_focus_rectangle": true,
     "new_proj_git_init": true,
-    "visual_markdown_editing_is_default": true,
     "git_diff_ignore_whitespace": true,
     "shiny_viewer_type": "pane",
-    "rainbow_parentheses": true
+    "rainbow_parentheses": true,
+    "source_with_echo": true,
+    "show_hidden_files": true
 }

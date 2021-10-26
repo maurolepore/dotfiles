@@ -43,6 +43,7 @@ alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
 alias rexamples="Rscript -e 'devtools::run_examples(run_dontrun = TRUE, run_donttest = TRUE, document = TRUE)'"
 # CRAN release
+alias rreleasealiases="google-chrome https://github.com/maurolepore/dotfiles/blob/8c3e6fc04585a2763bf1ee445a3b95bd5e1f4d8f/aliases.zsh"
 alias rreleaseworkflow="google-chrome https://github.com/2DegreesInvesting/resources/issues/256"
 alias rcheckresults='f() {google-chrome https://cran.rstudio.org/web/checks/check_results_$(basename $(pwd)).html}; f'
 alias rpolishnews="vim NEWS.md"
@@ -79,5 +80,6 @@ alias dcd="docker-compose down"
 alias bat="batcat"
 alias l="ls -1"
 
-alias rm=del
-
+alias lsf="ls -p | grep -v /"
+alias lsd="ls -p | grep '/$'"
+alias R="R --no-save --no-restore-data"
