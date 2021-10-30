@@ -83,3 +83,8 @@ alias l="ls -1"
 alias lsf="ls -p | grep -v /"
 alias lsd="ls -p | grep '/$'"
 alias R="R --no-save --no-restore-data"
+
+alias rbranchrename="Rscript -e 'usethis::git_default_branch_rename()'"
+alias rbranchrediscover="Rscript -e 'usethis::git_default_branch_rediscover()'"
+
+
