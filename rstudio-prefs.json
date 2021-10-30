@@ -64,6 +64,5 @@
     "git_diff_ignore_whitespace": true,
     "shiny_viewer_type": "pane",
     "rainbow_parentheses": true,
-    "source_with_echo": true,
-    "show_hidden_files": true
+    "source_with_echo": true
 }
