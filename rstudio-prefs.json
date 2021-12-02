@@ -2,8 +2,8 @@
     "panes": {
         "quadrants": [
             "Source",
-            "TabSet1",
             "Console",
+            "TabSet1",
             "TabSet2"
         ],
         "tabSet1": [
@@ -42,7 +42,7 @@
     "posix_terminal_shell": "custom",
     "custom_shell_command": "/bin/zsh",
     "jobs_tab_visibility": "shown",
-    "default_project_location": "~/git",
+    "default_project_location": "~/tmp",
     "auto_save_on_blur": true,
     "editor_keybindings": "vim",
     "spelling_dictionary_language": "en_AU",
@@ -60,9 +60,9 @@
     "initial_working_directory": "~",
     "graphics_backend": "ragg",
     "show_panel_focus_rectangle": true,
-    "new_proj_git_init": true,
     "git_diff_ignore_whitespace": true,
     "shiny_viewer_type": "pane",
     "rainbow_parentheses": true,
-    "source_with_echo": true
+    "source_with_echo": true,
+    "show_hidden_files": true
 }

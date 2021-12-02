@@ -87,4 +87,4 @@ alias R="R --no-save --no-restore-data"
 alias rbranchrename="Rscript -e 'usethis::git_default_branch_rename()'"
 alias rbranchrediscover="Rscript -e 'usethis::git_default_branch_rediscover()'"
 
-
+alias az2='az boards work-item update --organization "https://dev.azure.com/2DegreesInvesting"'
