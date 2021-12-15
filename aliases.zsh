@@ -37,11 +37,13 @@ alias rmerge_origin_master="git fetch origin && git merge origin/master"
 alias rview="gh pr view -w"
 
 alias rcheck="Rscript -e 'devtools::check()'"
+alias rcheckst="Rscript -e 'devtools::check(env_vars = grep(\"ST_\", Sys.getenv(), value = TRUE))'"
 alias rtest="Rscript -e 'devtools::test()'"
 alias rsnap="Rscript -e 'testthat::snapshot_accept()'"
 alias rinstall="Rscript -e 'devtools::install()'"
 alias rdocument="Rscript -e 'devtools::document()'"
 alias rexamples="Rscript -e 'devtools::run_examples(run_dontrun = TRUE, run_donttest = TRUE, document = TRUE)'"
+
 # CRAN release
 alias rreleasealiases="google-chrome https://github.com/maurolepore/dotfiles/blob/8c3e6fc04585a2763bf1ee445a3b95bd5e1f4d8f/aliases.zsh"
 alias rreleaseworkflow="google-chrome https://github.com/2DegreesInvesting/resources/issues/256"
