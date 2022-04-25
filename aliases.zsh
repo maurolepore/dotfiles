@@ -1,10 +1,10 @@
+alias R="R --no-save --no-restore-data"
+
 alias aliases="source ~/.oh-my-zsh/custom/aliases.zsh"
 alias cddocs="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)/PERSONAL/DOCUMENTACION"
 alias cddrop="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)"
 alias gbv="git branch -vv"
 alias mwin="sudo mount /dev/nvme0n1p3 /media/mauro"
-alias R3="/usr/bin/R"
-alias R="/usr/bin/R --no-save"
 
 alias ghic="gh issue create"
 alias ghil="gh issue list"
@@ -22,7 +22,6 @@ alias ghrc="gh repo create"
 alias ghrf="gh repo fork"
 alias ghrv="gh repo view"
 
-alias Rscript="/usr/bin/Rscript"
 alias rfinish="Rscript -e 'usethis::pr_finish()'"
 alias rmerge_main="Rscript -e 'usethis::pr_merge_main()'"
 alias rpause="Rscript -e 'usethis::pr_pause()'"
@@ -84,7 +83,6 @@ alias l="ls -1"
 
 alias lsf="ls -p | grep -v /"
 alias lsd="ls -p | grep '/$'"
-alias R="R --no-save --no-restore-data"
 
 alias rbranchrename="Rscript -e 'usethis::git_default_branch_rename()'"
 alias rbranchrediscover="Rscript -e 'usethis::git_default_branch_rediscover()'"

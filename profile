@@ -26,9 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-
-#https://github.com/2DegreesInvesting/resources/issues/198
 R_COMPILE_AND_INSTALL_PACKAGES="always"
-export RSTUDIO_WHICH_R="/usr/bin/R"
 export PATH="${PATH}:/usr/bin"
 umask 000
