@@ -28,8 +28,6 @@
         "additional_source_columns": 0
     },
     "wrap_tab_navigation": false,
-    "save_workspace": "never",
-    "load_workspace": false,
     "highlight_selected_line": true,
     "show_invisibles": true,
     "show_indent_guides": true,
@@ -42,7 +40,7 @@
     "posix_terminal_shell": "custom",
     "custom_shell_command": "/bin/zsh",
     "jobs_tab_visibility": "shown",
-    "default_project_location": "~/tmp",
+    "default_project_location": "~/git",
     "auto_save_on_blur": true,
     "editor_keybindings": "vim",
     "spelling_dictionary_language": "en_AU",
@@ -63,6 +61,9 @@
     "git_diff_ignore_whitespace": true,
     "shiny_viewer_type": "pane",
     "rainbow_parentheses": true,
-    "show_hidden_files": true,
-    "source_with_echo": true
+    "source_with_echo": true,
+    "new_proj_git_init": true,
+    "save_workspace": "never",
+    "load_workspace": false,
+    "show_hidden_files": true
 }
