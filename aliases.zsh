@@ -1,4 +1,5 @@
 alias R="R --no-save --no-restore-data"
+alias rs="find -name *.Rproj -exec rstudio {} \;"
 
 alias aliases="source ~/.oh-my-zsh/custom/aliases.zsh"
 alias cddocs="cd /media/mauro/Users/Mauro/Dropbox\ \(Personal\)/PERSONAL/DOCUMENTACION"
