@@ -27,5 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 R_COMPILE_AND_INSTALL_PACKAGES="always"
-export PATH="${PATH}:/usr/bin"
 umask 000
