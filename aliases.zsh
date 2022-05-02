@@ -90,3 +90,5 @@ alias rbranchrediscover="Rscript -e 'usethis::git_default_branch_rediscover()'"
 
 alias azlogin="az login --allow-no-subscriptions"
 alias azupdate='az boards work-item update --organization "https://dev.azure.com/2DegreesInvesting"'
+
+alias rmi='rm -i'

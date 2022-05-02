@@ -20,7 +20,8 @@
             "Plots",
             "Packages",
             "Help",
-            "Viewer"
+            "Viewer",
+            "Presentations"
         ],
         "hiddenTabSet": [],
         "console_left_on_top": false,
@@ -65,5 +66,6 @@
     "new_proj_git_init": true,
     "save_workspace": "never",
     "load_workspace": false,
-    "show_hidden_files": true
+    "show_hidden_files": true,
+    "insert_native_pipe_operator": true
 }
