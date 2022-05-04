@@ -8,6 +8,7 @@
 [core]
 	editor = vim
 	autocrlf = input
+	excludesFile = ~/.gitignore
 [alias]
 	a = add .
 	ac = !git add . && git commit
