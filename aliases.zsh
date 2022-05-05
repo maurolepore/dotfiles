@@ -92,3 +92,7 @@ alias azlogin="az login --allow-no-subscriptions"
 alias azupdate='az boards work-item update --organization "https://dev.azure.com/2DegreesInvesting"'
 
 alias rmi='rm -i'
+
+alias pkey='pass google-account/keyring -c'
+alias p2dii='pass google-account/mauro@2degrees-investing.org -c'
+alias pgithubpat='pass dev/github_pat -c'
