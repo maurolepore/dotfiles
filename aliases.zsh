@@ -96,3 +96,7 @@ alias rmi='rm -i'
 alias pkey='pass google-account/keyring -c'
 alias p2dii='pass google-account/mauro@2degrees-investing.org -c'
 alias pgithubpat='pass dev/github_pat -c'
+
+alias rghtoken_help="Rscript -e 'usethis::gh_token_help()'"
+alias rghtoken_create="Rscript -e 'usethis::create_github_token()'"
+
