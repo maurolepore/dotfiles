@@ -100,3 +100,6 @@ alias pgithubpat='pass dev/github_pat -c'
 alias rghtoken_help="Rscript -e 'usethis::gh_token_help()'"
 alias rghtoken_create="Rscript -e 'usethis::create_github_token()'"
 
+alias rm='rm -i'
+
+alias do-pastax="ssh root@143.198.78.36"
