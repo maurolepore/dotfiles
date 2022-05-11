@@ -102,4 +102,6 @@ alias rghtoken_create="Rscript -e 'usethis::create_github_token()'"
 
 alias rm='rm -i'
 
-alias do-pastax="ssh root@143.198.78.36"
+alias do-ssh="ssh root@137.184.10.20"
+alias do-rs="google-chrome http://137.184.10.20:8787"
+alias do-site="google-chrome https://cloud.digitalocean.com/projects/"
