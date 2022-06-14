@@ -70,9 +70,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(vi-mode
 	git 
-       	zsh-syntax-highlighting
 	history-substring-search
-	zsh-autosuggestions
 	per-directory-history
 	autojump
 	command-not-found
@@ -109,13 +107,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion for gh on zsh
 eval "$(gh completion -s zsh)"
-export PATH=/home/mauro/git/pacta-cli:${PATH}
-export PATH=/home/mauro/git/2diidockerrunner/pacta:${PATH}
-source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-[[ -s /home/mauro/.autojump/etc/profile.d/autojump.sh ]] && source /home/mauro/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
-
-source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/mauro/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH=/home/mauro/git/bin:${PATH}
