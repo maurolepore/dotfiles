@@ -102,9 +102,9 @@ alias rghtoken_create="Rscript -e 'usethis::create_github_token()'"
 
 alias rm='rm -i'
 
-alias do-ssh-mauro="ssh root@164.90.144.47"
-alias do-rs-mauro="google-chrome http://164.90.144.47"
-alias do-ssh-mauro-og="ssh root@167.71.65.136"
-alias do-rs-mauro-og="google-chrome http://167.71.65.136:8788"
+alias do-ssh"ssh root@161.35.227.34"
+alias do-rs="google-chrome http://161.35.227.34"
+alias do-ssh-mauro="ssh root@167.71.65.136"
+alias do-rs-mauro="google-chrome http://167.71.65.136:8788"
 alias do-rs-linda="google-chrome http://167.71.65.136:8787"
 
