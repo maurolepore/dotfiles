@@ -107,3 +107,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion for gh on zsh
 eval "$(gh completion -s zsh)"
+export PATH=/home/mauro/git/bin:${PATH}
+
