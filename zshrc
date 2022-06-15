@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mauro/.oh-my-zsh"
+export ZSH="/home/rstudio/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -72,7 +72,6 @@ plugins=(vi-mode
 	git 
 	history-substring-search
 	per-directory-history
-	autojump
 	command-not-found
 	pass)
 
@@ -107,5 +106,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion for gh on zsh
 eval "$(gh completion -s zsh)"
-export PATH=/home/mauro/git/bin:${PATH}
+export PATH=/home/rstudio/git/bin:${PATH}
 
