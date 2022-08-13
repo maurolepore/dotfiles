@@ -108,3 +108,5 @@ alias do-ssh-mauro="ssh root@167.71.65.136"
 alias do-rs-mauro="google-chrome http://167.71.65.136:8788"
 alias do-rs-linda="google-chrome http://167.71.65.136:8787"
 
+alias count.info_res="find ~/.cache/ep/0.0/resp/info_res -type f | wc -l"
+
