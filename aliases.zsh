@@ -110,3 +110,5 @@ alias do-rs-linda="google-chrome http://167.71.65.136:8787"
 
 alias count.info_res="find ~/.cache/ep/0.0/resp/info_res -type f | wc -l"
 
+alias docker="sudo docker"
+
