@@ -138,3 +138,13 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Activate autojump. See /usr/share/doc/autojump/README.Debian
+. /usr/share/autojump/autojump.sh
+
+# https://github.com/dylanaraps/fff#bash-and-zsh
+# Add this to your .bashrc, .zshrc or equivalent.
+# Run 'fff' with 'f' or whatever you decide to name the function.
+f() {
+    fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}

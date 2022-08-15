@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mauro/.oh-my-zsh"
+export ZSH="/home/rstudio/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,5 +106,15 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion for gh on zsh
 eval "$(gh completion -s zsh)"
-export PATH=/home/mauro/git/bin:${PATH}
+export PATH=/home/rstudio/git/bin:${PATH}
 
+# Activate autojump. See /usr/share/doc/autojump/README.Debian
+. /usr/share/autojump/autojump.sh
+
+# https://github.com/dylanaraps/fff#bash-and-zsh
+# Add this to your .bashrc, .zshrc or equivalent.
+# Run 'fff' with 'f' or whatever you decide to name the function.
+f() {
+    fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}
