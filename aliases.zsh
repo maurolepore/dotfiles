@@ -104,5 +104,6 @@ alias rm='rm -i'
 
 alias docker="sudo docker"
 
+alias rs="x-www-browser http://localhost:8788"
 alias do-ssh="ssh root@178.62.207.161"
 alias do-rs="x-www-browser http://178.62.207.161:8787"
