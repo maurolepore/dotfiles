@@ -8,7 +8,7 @@ This is how I usually install my dotfiles on a fresh system:
 * Clone and install my [dotfiles/](https://github.com/maurolepore/dotfiles).
 
 Other programs I like:
-* [`autojump`](https://github.com/wting/autojum)p (j).
+* [`autojump`](https://github.com/wting/autojum) (j).
 * [`f`](https://github.com/dylanaraps/fff).
 * [`tmux`](https://tmuxcheatsheet.com/). 
 * [`pass`](https://www.passwordstore.org/) (install then clone password-store/ into ~ and import the private key).
