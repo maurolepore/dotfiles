@@ -18,6 +18,7 @@ cd dotfiles
 
 * [`gh`](https://cli.github.com/), login with `gh auth login`, and create a new SSH key.
 * [oh-my-zsh](https://ohmyz.sh/).
+* [docker](https://docs.docker.com/engine/install/).
 * [`j`](https://github.com/wting/autojum).
 * [`f`](https://github.com/dylanaraps/fff).
 * [`tmux`](https://tmuxcheatsheet.com/). 
