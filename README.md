@@ -22,4 +22,8 @@ cd dotfiles
 * [`j`](https://github.com/wting/autojum).
 * [`f`](https://github.com/dylanaraps/fff).
 * [`tmux`](https://tmuxcheatsheet.com/). 
-* [`pass`](https://www.passwordstore.org/) (install then clone password-store/ into ~ and import the private key).
+* [`pass`](https://www.passwordstore.org/): 
+    * Install pass, 
+    * Clone password-store/ into ~
+    * Rename to .password-store
+    * gpg --import /path/to/private/key

@@ -1,3 +1,4 @@
+ln -svf ~/git/dotfiles/aliases.zsh ~/.bash_aliases 
 ln -svf ~/git/dotfiles/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh 
 ln -svf ~/git/dotfiles/gitconfig ~/.gitconfig 
 ln -svf ~/git/dotfiles/gitignore ~/.gitignore
