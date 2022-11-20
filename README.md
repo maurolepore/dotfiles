@@ -26,4 +26,10 @@ cd dotfiles
     * Install pass, 
     * Clone password-store/ into ~
     * Rename to .password-store
-    * gpg --import /path/to/private/key
+    * Import and trust the gpg key
+      ```bash
+      gpg --import /path/to/private/key
+      gpg --edit-key user@email
+      trust
+      ultimate
+      ```
