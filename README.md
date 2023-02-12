@@ -22,7 +22,8 @@ cd dotfiles
 * [`j`](https://github.com/wting/autojump).
 * [`f`](https://github.com/dylanaraps/fff).
 * [`tmux`](https://tmuxcheatsheet.com/). 
-* [`pass`](https://www.passwordstore.org/). 
+* Dotfiles.
+* [`pass`](https://www.passwordstore.org/): 
     * Install pass, 
     * Clone password-store/ into ~
     * Rename to .password-store
