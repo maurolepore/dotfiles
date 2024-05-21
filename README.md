@@ -2,7 +2,7 @@
 
 The goal of dotfiles is to store my public dotfiles.
 
-### Installation
+## Installation
 
 Clone the repo and run `./ln.sh`.
 
