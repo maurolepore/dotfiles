@@ -4,22 +4,21 @@ The goal of dotfiles is to store my public dotfiles.
 
 ### Installation
 
-This works for the user mauro. To install in other users you may need to
-change some code.
+Clone the repo and run `./ln.sh`.
+
+## Most common usage
 
 ```bash
-cd /home/mauro/git
-git clone git@github.com:maurolepore/dotfiles.git
-cd dotfiles
-./ln.sh
+docker run -d --name rx.y.z -v /mnt:/mnt  -p 8787:8787 -e ROOT=true -e PASSWORD='secret' rocker/verse:x.y.z
 ```
 
-## My usual setup
+1. [`sudo apt-get install gh`](https://cli.github.com/), login with `gh auth login`, and create a new SSH key.
+1. `sudo apt-get install zsh`, [oh-my-zsh](https://ohmyz.sh/), in RStudio set new terminals to use Zsh.
+1. [`sudo apt-get install`](https://github.com/wting/autojump) (in dotfiles it's activated and aliased to `j`).
 
-* [`gh`](https://cli.github.com/), login with `gh auth login`, and create a new SSH key.
-* [oh-my-zsh](https://ohmyz.sh/).
+## Less commonly used tools
+
 * [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository).
-* [`j`](https://github.com/wting/autojump).
 * [`f`](https://github.com/dylanaraps/fff).
 * [`tmux`](https://tmuxcheatsheet.com/). 
 * Dotfiles.
