@@ -4,15 +4,13 @@ The goal of dotfiles is to store my public dotfiles.
 
 ### Installation
 
-This works for the user mauro. To install in other users you may need tosual
-change some code.
+Clone the repo, checkout the branch `rstudio` and run `./ln.sh`.
 
 ```bash
-cd /home/mauro/git
-git clone git@github.com:maurolepore/dotfiles.git
-cd dotfiles
+git branch rstudio origin/rstudio
 ./ln.sh
 ```
+
 
 ### Most common usage
 
