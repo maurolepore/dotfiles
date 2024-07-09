@@ -3,6 +3,7 @@ if (interactive()) {
  suppressMessages(require(usethis))
  suppressMessages(require(testthat))
  suppressMessages(require(pkgdown))
+ suppressMessages(require(fledge))
 }
 
 options(
@@ -20,4 +21,3 @@ options(
   usethis.destdir = "~/git",
   usethis.overwrite = TRUE
 )
-

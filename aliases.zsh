@@ -107,3 +107,18 @@ alias docker="sudo docker"
 alias rs="x-www-browser http://localhost:8788"
 alias do-ssh="ssh root@178.62.207.161"
 alias do-rs="x-www-browser http://178.62.207.161:8787"
+
+alias red="Rscript -e 'renv::deactivate()'"
+alias rea="Rscript -e 'renv::activate()'"
+
+alias rfv="Rscript -e 'fledge::update_version()'"
+alias rfn="Rscript -e 'fledge::update_news()'"
+
+alias ghprs='gh pr merge -sd'
+alias rft="Rscript -e 'fledge::tag_version()'"
+alias rff="Rscript -e 'fledge::finalize_version(TRUE)'"
+alias squash=ghprs --admin && rft && rff
+
+alias rres="rm renv.lock -f && Rscript -e 'renv::snapshot()'"
+
+alias rrr="rtest && rexamples && rstyle && rdesc"
