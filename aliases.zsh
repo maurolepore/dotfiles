@@ -117,7 +117,8 @@ alias rfn="Rscript -e 'fledge::update_news()'"
 alias ghprs='gh pr merge -sd'
 alias rft="Rscript -e 'fledge::tag_version()'"
 alias rff="Rscript -e 'fledge::finalize_version(TRUE)'"
-alias squash=ghprs --admin && rft && rff
+
+alias squash="gh pr merge --squash --admin --delete-branch && git checkout main && Rscript -e 'fledge::finalize_version(push = TRUE)'"
 
 alias rres="rm renv.lock -f && Rscript -e 'renv::snapshot()'"
 
